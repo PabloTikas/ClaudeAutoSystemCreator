@@ -1,0 +1,11 @@
+{
+  "name": "[Workflow Name]",
+  "version": "1.0.0",
+  "description": "[Workflow purpose]",
+  "on_error": "stop",
+  "steps": [
+    { "agent": "[Agent1Name]", "retry": 0, "required": true },
+    { "agent": "[Agent2Name]", "retry": 0, "required": true },
+    { "agent": "[Agent3Name]", "retry": 0, "required": true }
+  ]
+}
